@@ -1,4 +1,5 @@
 import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 import { Target, Eye, Heart } from "lucide-react";
 
 const About = () => {
@@ -132,6 +133,7 @@ const About = () => {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 };
