@@ -12,7 +12,7 @@ const inter = localFont({
 });
 
 const spaceGrotesk = localFont({
-  src: "./fonts/SpaceGroteskVF.ttf",
+  src: "./fonts/SpaceGroteskVf.ttf",
   variable: "--font-space-grotesk",
   weight: "100 200 300 400 500 700 800 900",
 });
