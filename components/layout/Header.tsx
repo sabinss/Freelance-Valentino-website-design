@@ -27,7 +27,7 @@ export const Header = () => {
     : "sticky top-0 z-50 text-white";
   console.log(headerClasses);
   return (
-    <header className={headerClasses}>
+    <header className={headerClasses + " shadow-lg"}>
       <nav className="flex items-center justify-between px-10 py-6 font-bold">
         <div className="text-2xl font-bold">
           <span className="text-3xl font-bold text-pink-500">V</span>alentino
